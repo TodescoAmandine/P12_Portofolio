@@ -1,0 +1,117 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    background: $nav-color;
+    padding-bottom: 80px;
+    height: 800px;
+}
+
+.form__contenair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form__title{
+    font-weight: $font-s;
+    font-family: $font;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form__mail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: $shadow;
+    cursor: pointer;
+    width: 500px;
+    padding: 16px;
+    border: 0;
+    font-family: $font;
+}
+.form__message{
+    box-shadow: $shadow;
+    cursor: pointer;
+    width: 500px;
+    padding: 16px;
+    font-family: $font;
+    height: 300px;
+}
+.form__button{
+    background-color:$pink-color;
+    border: 0;
+    padding: 10px;
+    color: rgb(5 55 55);
+    margin-top: 20px;
+    width: 100px;
+    font-size: $font-l;
+    font-weight: $font-w-m;
+    transition: background-color 0.3s ease;
+    font-family: $font;
+
+    &:hover {
+        background-color: darken(rgb(230,179,176), 10%);
+    }
+
+    &:active {
+        background-color: darken(rgb(230,179,176), 20%);
+        color: white;
+    }
+}
+
+@media (max-width: 1024px) {
+    #footer {
+      padding-top: 100px; 
+      height: auto; 
+    }
+  
+    .form__contenair {
+      width: 80%; 
+      margin: 0 auto; 
+    }
+  
+    .form__mail, .form__message {
+      width: 100%; 
+    }
+  
+    .form__button {
+      width: 80px; 
+      font-size: $font-ml; 
+      font-family: $font;
+    }
+  }
+
+@media (max-width: 768px) {
+    #footer {
+        padding-top: 50px;
+    }
+.form__contenair{
+    width: 100%;
+}
+    .form__mail  {
+        width: 80%; 
+        height: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    .form__message {
+        width: 80%; 
+        margin: 0;
+        padding: 0;
+    }
+
+    .form__title {
+        font-size: $font-ml; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: $font;
+    }
+
+    .form__button {
+        width: 80px; 
+        font-size: $font-m; 
+    }
+}

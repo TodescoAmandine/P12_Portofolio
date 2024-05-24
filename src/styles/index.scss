@@ -1,0 +1,20 @@
+//composant style global
+@import "./pages/_settings.scss";
+
+//composants global
+@import "./components/_navigation.scss";
+@import "./components/banner.scss";
+@import "./components/_footer.scss";
+
+
+
+
+//composants de la page Error
+@import "./pages/_error.scss";
+
+//composants
+@import "./components/_card.scss";
+@import "./components/_projectdetails.scss";
+@import "./components/skills.scss";
+// @import "./components/modal.scss";
+@import "./components/myproject.scss";
