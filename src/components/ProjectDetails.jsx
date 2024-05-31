@@ -14,14 +14,14 @@ const ProjectDetails = () => {
         return <Error404 />; // Render the Error404 component if the project is not found
       }
 
-    const { image_details, title, content, tags } = project;
+    const { image_details, title, url, content, tags } = project;
 
     return (
         <div id='details_page'>
         <div className='projectdetails__container'>
         <Link className='button' to="/">
-             <button className='projectdetails__button'><i id='arrow__back' className="fa-solid fa-arrow-up"></i>Back</button>
-        </Link>            
+    <i id='arrow__back' className="fa-solid fa-arrow-up"></i>Back
+</Link>
         <img className='projectdetails__image' src={image_details} alt="" />
             <div className='projectdetails__content'>
             
@@ -30,7 +30,10 @@ const ProjectDetails = () => {
                     <div className='projectdetails__contents'> 
                     <p className='projectdetails__content--p'>{content}</p>
                     <div className='projectdetails__links'>
-                        <p className='projectdetails__content--link'>View in Github <i className="fa-solid fa-arrow-up"></i></p>
+                        <p >
+                            <a className='projectdetails__content--link' href={url} target='_blank'> View in Github <i className="fa-solid fa-arrow-up"></i>
+                            </a>
+                        </p>
                 
                         <img className='projectdetails__content--git' src={IconeGit} alt="" />
                         <p className='projectdetails__content--link'>View Web page <i className="fa-solid fa-arrow-up"></i></p>

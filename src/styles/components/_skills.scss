@@ -30,6 +30,11 @@
       .skills--icones {
         width: 100px;
         height: 100px;
+        transition: transform 1s; 
+
+      }
+        .skills--icones:hover {
+          transform: rotateY(180deg); /* Pour faire tourner le div quand on passe la souris dessus */
       }
     }
   }

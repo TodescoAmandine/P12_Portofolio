@@ -4,7 +4,7 @@ import css from '../assets/img/CSS3_logo_and_wordmark.png';
 import sass from '../assets/img/768px-Sass_Logo_Color.png';
 import js from '../assets/img/JavaScript-logo.png';
 import reactapp from '../assets/img/React-icon.png';
-import redux from '../assets/img/800px-Redux_Logo.png';
+import redux from '../assets/img/redux.svg';
 import git from '../assets/img/Octicons-mark-github.png';
 
 

@@ -1,218 +1,220 @@
 #details_page {
+  background: rgb(235, 242, 242);
+  width: 100vw;
+  height: 100vh;
+}
+
+.projectdetails__container {
+  display: flex;
+  padding: 112px 85px;
+  // padding: 112px 25px;
+  gap: 80px;
+  // gap:30px;
+
+   .button {
+    font-family: $font;
+    font-size: $font-m;
+    font-weight: $font-w-m;
+    height: 30px;
+    background-color: $nav-color;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+    // display: flex;
+    align-items: baseline;
+    text-decoration: none;
+    cursor: pointer;
+
+      &:hover {
+        background-color: darken(rgb(230, 179, 176), 10%);
+      }
+
+      &:active {
+        background-color: darken(rgb(230, 179, 176), 20%);
+        color: white;
+      }
+      #arrow__back {
+        transform: rotate(-45deg);
+        margin-right: 10px;
+      }
+    }
+  }
+  .projectdetails__image {
+    width: 500px;
+    height: auto;
+    box-shadow: $shadow;
+    
+  }
+
+  .projectdetails__links {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+  }
+
+  .projectdetails__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .projectdetails__content--title {
+    font-size: $font-xl;
+    font-weight: $font-w-xl;
+    font-family: $font;
+    color: $nav-color;
+  }
+  .projectdetails__contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .projectdetails__content--p {
+    font-family: $font;
+    font-size: $font-ml;
+    font-weight: $font-w-m;
+    text-align: justify;
+  }
+
+  //animation for the link
+  .projectdetails__content--link {
+    font-family: $font;
+    font-size: $font-ml;
+    font-weight:$font-w-m;
+    transition: border-bottom 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline; 
+    margin-bottom: 0; 
+    padding-bottom: 0;
+    text-decoration: none;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 1.33px;
+      background: currentColor;
+      bottom: 0;
+      left: 50%;
+      transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    }
+
+    &:hover::after {
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  .projectdetails__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 42.6px;
+    width: 100%;
+  }
+//animation for the git icon
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-5px);
+    }
+    60% {
+      transform: translateY(-3px);
+    }
+  }
+  .projectdetails__content--git {
+    width: 35px;
+    height: 35px;
+    margin: 0 20px;
+    transition: transform 0.5s;
+    cursor: pointer;
+    &:hover {
+      animation: bounce 0.5s;
+    }
+  }
+
+  .tag-button {
+    background-color: $nav-color;
+    outline: none;
+    border: none;
+    margin: 5px;
+    color: white;
+  }
+
+
+
+
+//media queries
+@media (min-width: 769px) and (max-width: 1024px){
+  #details_page {
     background: rgb(235, 242, 242);
     width: 100vw;
     height: 100vh;
   }
-  
-  .projectdetails__container {
-    display: flex;
-    padding: 112px 85px;
+  .projectdetails__container{
+    padding: 112px 55px;
     // padding: 112px 25px;
-    gap: 80px;
-    // gap:30px;
-  
-    .button {
-      height: 50px;
-  
-      .projectdetails__button {
-        background-color: $nav-color;
-        outline: none;
-        border: none;
-        color: white;
-        padding: 15px;
-        transition: background-color 0.3s ease;
-        display: flex;
-        align-items: baseline;
-        text-decoration: none;
-        cursor: pointer;
-  
-        &:hover {
-          background-color: darken(rgb(230, 179, 176), 10%);
-        }
-  
-        &:active {
-          background-color: darken(rgb(230, 179, 176), 20%);
-          color: white;
-        }
-        #arrow__back {
-          transform: rotate(-45deg);
-          margin-right: 10px;
-        }
-      }
-    }
-    .projectdetails__image {
-      width: 500px;
-      height: auto;
-      box-shadow: $shadow;
-      
-    }
-  
-    .projectdetails__links {
-      display: flex;
-      flex-direction: row;
-      margin: 20px 0;
-    }
-  
-    .projectdetails__content {
-      display: flex;
-      flex-direction: column;
-    }
-    .projectdetails__content--title {
-      font-size: $font-xl;
-      font-weight: $font-w-xl;
-      font-family: $font;
-      color: $nav-color;
-    }
-    .projectdetails__contents {
-      display: flex;
-      flex-direction: column;
-    }
-    .projectdetails__content--p {
-      font-family: $font;
-      font-size: $font-ml;
-      font-weight: $font-ml;
-      text-align: justify;
-    }
-
-    //animation for the link
-    .projectdetails__content--link {
-      font-family: $font;
-      font-size: $font-ml;
-      font-weight:$font-ml;
-      transition: border-bottom 0.3s ease-in-out;
-      overflow: hidden;
-      position: relative;
-      flex-wrap: nowrap;
-      white-space: nowrap;
-      cursor: pointer;
-      display: inline; 
-      margin-bottom: 0; 
-      padding-bottom: 0;
-  
-      &::after {
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 1.33px;
-        background: currentColor;
-        bottom: 0;
-        left: 50%;
-        transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
-      }
-  
-      &:hover::after {
-        width: 100%;
-        left: 0;
-      }
-    }
-  
-    .projectdetails__cards {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 42.6px;
-      width: 100%;
-    }
-  //animation for the git icon
-    @keyframes bounce {
-      0%,
-      20%,
-      50%,
-      80%,
-      100% {
-        transform: translateY(0);
-      }
-      40% {
-        transform: translateY(-5px);
-      }
-      60% {
-        transform: translateY(-3px);
-      }
-    }
-    .projectdetails__content--git {
-      width: 35px;
-      height: 35px;
-      margin: 0 20px;
-      transition: transform 0.5s;
-      cursor: pointer;
-      &:hover {
-        animation: bounce 0.5s;
-      }
-    }
-  
-    .tag-button {
-      background-color: $nav-color;
-      outline: none;
-      border: none;
-      margin: 5px;
-      color: white;
-    }
-
+    gap:30px;
   }
-  
+}
 
-  //media queries
-  @media (min-width: 769px) and (max-width: 1024px){
-    #details_page {
-      background: rgb(235, 242, 242);
-      width: 100vw;
+  @media (max-width: 768px) {
+    #details_page{
       height: 100vh;
     }
-    .projectdetails__container{
-      padding: 112px 55px;
-      // padding: 112px 25px;
-      gap:30px;
+    .projectdetails__container {
+       padding: 20px;
+       display: flex;
+       flex-direction: column;
     }
+    .projectdetails__container .button{
+      height: 10px;
+    }
+    .projectdetails__container .projectdetails__image {
+      width: 280px;
+      display: block;
+      margin: auto;
+      width: 80%
+    }
+    .projectdetails__container .projectdetails__content{
+      margin-top: -60px;
+    }
+    .projectdetails__container .projectdetails__links {
+      display: flex;
+      flex-direction: column;
+  }
+  .projectdetails__container .projectdetails__content--link {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 1.33px;
+      background: currentColor;
+      bottom: 0;
+      left: 0;
+      transition: width 0.3s ease-in-out;
+      opacity: 0;
+
+    }
+
+    &:hover::after {
+      width: 50%; 
+      opacity: 1;
+    }
+  
+  }
+  .projectdetails__container .projectdetails__content--git {
+    margin: 15px 0;
   }
 
-    @media (max-width: 768px) {
-      #details_page{
-        height: 100vh;
-      }
-      .projectdetails__container {
-         padding: 20px;
-         display: flex;
-         flex-direction: column;
-      }
-      .projectdetails__container .button{
-        height: 10px;
-      }
-      .projectdetails__container .projectdetails__image {
-        width: 280px;
-        display: block;
-        margin: auto;
-        width: 80%
-      }
-      .projectdetails__container .projectdetails__content{
-        margin-top: -60px;
-      }
-      .projectdetails__container .projectdetails__links {
-        display: flex;
-        flex-direction: column;
-    }
-    .projectdetails__container .projectdetails__content--link {
-      &::after {
-        content: "";
-        position: absolute;
-        width: 0%;
-        height: 1.33px;
-        background: currentColor;
-        bottom: 0;
-        left: 0;
-        transition: width 0.3s ease-in-out;
-        opacity: 0;
-
-      }
-
-      &:hover::after {
-        width: 50%; 
-        opacity: 1;
-      }
-    
-    }
-    .projectdetails__container .projectdetails__content--git {
-      margin: 15px 0;
-    }
-
-  }
+}
