@@ -20,7 +20,7 @@ const ProjectDetails = () => {
         <div id='details_page'>
         <div className='projectdetails__container'>
         <Link className='button' to="/">
-    <i id='arrow__back' className="fa-solid fa-arrow-up"></i>Back
+    <i id='arrow__back' className="fa-solid fa-arrow-up"></i>Retour
 </Link>
         <img className='projectdetails__image' src={image_details} alt="" />
             <div className='projectdetails__content'>
@@ -31,12 +31,13 @@ const ProjectDetails = () => {
                     <p className='projectdetails__content--p'>{content}</p>
                     <div className='projectdetails__links'>
                         <p >
-                            <a className='projectdetails__content--link' href={url} target='_blank'> View in Github <i className="fa-solid fa-arrow-up"></i>
+                            <a className='projectdetails__content--link' href={url} target='_blank'> Voir sur Github <i className="fa-solid fa-arrow-up"></i>
                             </a>
                         </p>
-                
+                        <a href={url} target='_blank'>
                         <img className='projectdetails__content--git' src={IconeGit} alt="" />
-                        <p className='projectdetails__content--link'>View Web page <i className="fa-solid fa-arrow-up"></i></p>
+                        </a>
+                        {/* <p className='projectdetails__content--link'>View Web page <i className="fa-solid fa-arrow-up"></i></p> */}
                         </div>
                         
                   </div>

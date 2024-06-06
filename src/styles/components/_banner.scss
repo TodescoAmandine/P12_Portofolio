@@ -35,7 +35,7 @@
     font-weight: 700;
    // margin-left: 500px;
     z-index: 999;
-    margin: 200px 200px;
+    margin: 250px 200px;
     transition: opacity 0.5s ease-in-out; 
 
   }
@@ -46,7 +46,7 @@
     font-size: 20px;
     font-weight: 300;
     z-index: 999;
-    margin: 260px 900px;
+    margin: 300px 1000px;
     transition: opacity 0.5s ease-in-out;
     width: 300px;
   }
@@ -58,20 +58,22 @@
   }
 
   #banner #imgbanner {
-    height: 600px; // Use percentage instead of fixed px value
+    height: 600px; 
     width: 100%;
+    // width: 150px;
+
   }
 
   #banner #tag {
     font-size: 60px;
-    margin-top: 10%; // Use percentage instead of fixed px value
+    margin-top: 150px; 
     text-align: center;
   }
 
   #banner #about {
     font-size: 15px;
-    margin-top: 40%; // Use percentage instead of fixed px value
-    width: 50%; // Use percentage instead of fixed px value
+    margin-top: 40%; 
+    width: 50%; 
     text-align: justify;
   }
 }

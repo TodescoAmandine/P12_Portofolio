@@ -3,8 +3,8 @@
     "image": "./N_Y88TWmGwA.png",
     "image_details": "/screen_ohmyfoodok.png",
     "title": "Ohmyfood",
-    "short_content": "The project's goal was to create a responsive website for gourmet restaurants. It aimed to explore animations, SASS language with BEM, and implement a “mobile first” approach.",
-    "content": "The mission was to develop a “mobile first” then tablet and desktop site, which lists the menus of gourmet restaurants. Site models via Figma were given, including animations and behaviors to integrate. The objective of the project was to discover animations, the SASS language with BEM and to start the project “mobile first”",
+    "short_content": "L'objectif du projet était de créer un site web responsive pour les restaurants gastronomiques. Il visait à explorer les animations, le langage SASS avec BEM et à mettre en œuvre une approche « mobile first ».",
+    "content": "La mission était de développer un site « mobile d'abord » puis tablette et ordinateur, qui répertorie les menus des restaurants gastronomiques. Des modèles de sites via Figma ont été donnés, incluant des animations et des comportements à intégrer. L'objectif du projet était de découvrir des animations, les Langage SASS avec BEM et pour démarrer le projet « mobile first »",
     "tags": "HTML, CSS, SASS",
     "url": "https://github.com/TodescoAmandine/P4_Ohmyfood.git",
     "code": "https://github.com/TodescoAmandine/Ohmyfood.git"
@@ -14,8 +14,8 @@
     "image": "/Capture d'écran 2024-05-05 154431.png",
     "image_details": "/screen_kasa.png",
     "title": "Kasa",
-    "short_content": "The mission involved creating a responsive website with React. The main goal was to build a React application with reusable components and effective state management.",
-    "content": " The mission consisted of a complete redesign of a website, making it responsive for tablets and smartphones using React and including a slider. The mockups provided via Figma served as a base for the development. The main objective of this project was to build a first fully React application, by breaking down the project into several reusable components and efficiently managing the application's states.",
+    "short_content": "La mission consistait à créer un site web responsive avec React. L'objectif principal était de créer une application React avec des composants réutilisables et une gestion efficace des états.",
+    "content": " La mission consistait en une refonte complète d'un site internet, le rendant responsive pour les tablettes et smartphones utilisant React et incluant un slider. Les maquettes fournies via Figma ont servi de base au développement. L'objectif principal de ce projet était de construire une première application entièrement React, en décomposant le projet en plusieurs composants réutilisables et en gérant efficacement les états de l'application.",
     "tags": "HTML, SASS, JavaScript, React",    
     "url": "https://github.com/TodescoAmandine/P8_Kasa.git",
     "code": "https://github.com/TodescoAmandine/Kasa.git"
@@ -26,8 +26,8 @@
     "image": "/spacejoy-IH7wPsjwomc-unsplash.png",
     "image_details": "/screen_sophie2.png",
     "title": "Sophie Bluel",
-    "short_content": "The developer successfully implemented the login functionality and gallery management system",
-    "content": "The mission was to develop multiple pages of a photographer's portfolio with a login functionality for users. They will then be able to add or remove photos in a gallery through a modal window. The mockups were provided via Figma to guide the development. The main goal was to enhance JavaScript skills by applying them in the creation of a website requiring login/logout through an API, as well as access to an account for adding and removing elements.",
+    "short_content": "Le développeur a implémenté avec succès la fonctionnalité de connexion et le système de gestion de galerie",
+    "content": "La mission était de développer plusieurs pages du portfolio d'un photographe avec une fonctionnalité de connexion pour les utilisateurs. Ils pourront alors ajouter ou supprimer des photos dans une galerie via une fenêtre modale. Les maquettes ont été fournies via Figma pour guider le développement. L'objectif principal était d'améliorer les compétences JavaScript en les appliquant à la création d'un site Web nécessitant une connexion/déconnexion via une API, ainsi qu'un accès à un compte pour ajouter et supprimer des éléments.",
     "tags": "HTML, CSS, JavaScript",
     "url": "https://github.com/TodescoAmandine/P6_Sophie-Bluel.git",
     "code": "https://github.com/TodescoAmandine/6_Sophie-Bluel.git"

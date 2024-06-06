@@ -13,7 +13,7 @@ const MySkills = () => {
         <section id='skills'>
             <div>
                 <h2 className='skills__content--title' >My Skills</h2>
-                <p className='skills__content--p'>During my training with OpenClassroom, I have acquired a variety of skills related to website development. I am proficient in building websites from scratch and utilizing frameworks such as React. Additionally, I am experienced in using preprocessors like Sass, version control systems like Git, package managers like npm, and module bundlers like Webpack. Overall, I have a well-rounded skill set that allows me to create high-quality websites efficiently.
+                <p className='skills__content--p'>Lors de ma formation avec OpenClassroom, j'ai acquis diverses compétences liées au développement de sites Web. Je maîtrise la création de sites Web à partir de zéro et l'utilisation de frameworks tels que React. De plus, j'ai de l'expérience dans l'utilisation de préprocesseurs comme Sass, de systèmes de contrôle de version comme Git, de gestionnaires de packages comme npm et de bundlers de modules comme Webpack. Dans l’ensemble, je dispose d’un ensemble de compétences complètes qui me permettent de créer efficacement des sites Web de haute qualité.
                    </p>
                    <div id='skills_container--icones'> 
                    <img className='skills--icones' src={html} alt="" />
