@@ -11,8 +11,8 @@ const Home = () => {
     <div>
         <Navigation id='navi' />
         <HeroSection id='hero' imgbanner={BannerImage} 
-        title={ <span>Bienvenue<br /> sur mon portofolio! <br />Je suis Amandine</span>}
-        about={ <span>Je suis une développeuse web junior. Le Web est pour moi un lieu où je peux exprimer ma créativité et ma passion pour la technologie. Je suis toujours à la recherche de nouveaux défis et je suis prêt à apprendre de nouvelles choses.
+        title={ <span>Bienvenue<br />sur le portofolio<br />d'Amandine Todesco</span>}
+        about={ <span>Je suis une développeuse web junior. Le Web est pour moi un lieu où je peux exprimer ma créativité et ma passion pour la technologie. Je suis toujours à la recherche de nouveaux défis et prête à apprendre de nouvelles choses. 
         </span>}
         />
         <MyProjects />

@@ -1,15 +1,9 @@
-#details_page {
-  // background: rgb(235, 242, 242);
-  // width: 100vw;
-  // height: 100vh;
-}
+
 
 .projectdetails__container {
   display: flex;
   padding: 112px 85px;
-  // padding: 112px 25px;
   gap: 80px;
-  // gap:30px;
 
    .button {
     font-family: $font;
@@ -17,12 +11,9 @@
     font-weight: $font-w-m;
     height: 30px;
     background-color: $nav-color;
-    outline: none;
-    border: none;
     color: white;
     padding: 15px;
     transition: background-color 0.3s ease;
-    // display: flex;
     align-items: baseline;
     text-decoration: none;
     cursor: pointer;
@@ -42,7 +33,7 @@
     }
   }
   .projectdetails__image {
-    width: 500px;
+    width: 450px;
     height: auto;
     box-shadow: $shadow;
     
@@ -83,8 +74,6 @@
     transition: border-bottom 0.3s ease-in-out;
     overflow: hidden;
     position: relative;
-    flex-wrap: nowrap;
-    white-space: nowrap;
     cursor: pointer;
     display: inline; 
     margin-bottom: 0; 
@@ -96,7 +85,7 @@
       content: "";
       position: absolute;
       width: 0;
-      height: 1.33px;
+      height: 1px;
       background: currentColor;
       bottom: 0;
       left: 50%;
@@ -157,22 +146,15 @@
 
 //media queries
 @media (min-width: 769px) and (max-width: 1024px){
-  // #details_page {
-  //   background: rgb(235, 242, 242);
-  //   width: 100vw;
-  //   height: 100vh;
-  // }
+
   .projectdetails__container{
     padding: 112px 55px;
-    // padding: 112px 25px;
     gap:30px;
   }
 }
 
   @media (max-width: 768px) {
-    // #details_page{
-    //   height: 100vh;
-    // }
+
     .projectdetails__container {
        padding: 20px;
        display: flex;
@@ -192,14 +174,14 @@
     }
     .projectdetails__container .projectdetails__links {
       display: flex;
-      flex-direction: column;
+      align-items: center;
   }
   .projectdetails__container .projectdetails__content--link {
     &::after {
       content: "";
       position: absolute;
       width: 0%;
-      height: 1.33px;
+      height: 1px;
       background: currentColor;
       bottom: 0;
       left: 0;
@@ -209,13 +191,13 @@
     }
 
     &:hover::after {
-      width: 50%; 
+      width: 100%; 
       opacity: 1;
     }
   
   }
   .projectdetails__container .projectdetails__content--git {
-    margin: 15px 0;
+    margin: 15px;
   }
 
 }

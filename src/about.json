@@ -4,8 +4,8 @@
     "image_details": "/screen_ohmyfoodok.png",
     "title": "Ohmyfood",
     "short_content": "L'objectif du projet était de créer un site web responsive pour les restaurants gastronomiques. Il visait à explorer les animations, le langage SASS avec BEM et à mettre en œuvre une approche « mobile first ».",
-    "content": "La mission était de développer un site « mobile d'abord » puis tablette et ordinateur, qui répertorie les menus des restaurants gastronomiques. Des modèles de sites via Figma ont été donnés, incluant des animations et des comportements à intégrer. L'objectif du projet était de découvrir des animations, les Langage SASS avec BEM et pour démarrer le projet « mobile first »",
-    "tags": "HTML, CSS, SASS",
+    "content": "La mission était de développer un site « mobile first » puis sur tablette et ordinateur, qui répertorie les menus des restaurants gastronomiques. Des modèles de sites via Figma ont été donnés, incluant des animations et des comportements à intégrer. L'objectif du projet était de découvrir des animations, les Langage SASS avec BEM.",
+    "tags": "HTML, CSS, SASS, Figma, Animations",
     "url": "https://github.com/TodescoAmandine/P4_Ohmyfood.git",
     "code": "https://github.com/TodescoAmandine/Ohmyfood.git"
 },
@@ -14,9 +14,9 @@
     "image": "/Capture d'écran 2024-05-05 154431.png",
     "image_details": "/screen_kasa.png",
     "title": "Kasa",
-    "short_content": "La mission consistait à créer un site web responsive avec React. L'objectif principal était de créer une application React avec des composants réutilisables et une gestion efficace des états.",
-    "content": " La mission consistait en une refonte complète d'un site internet, le rendant responsive pour les tablettes et smartphones utilisant React et incluant un slider. Les maquettes fournies via Figma ont servi de base au développement. L'objectif principal de ce projet était de construire une première application entièrement React, en décomposant le projet en plusieurs composants réutilisables et en gérant efficacement les états de l'application.",
-    "tags": "HTML, SASS, JavaScript, React",    
+    "short_content": "La mission consistait à créer un site web responsive d'une agence de location d'appartements  avec React. L'objectif principal était de découvrir React avec des composants réutilisables et une gestion efficace des états.",
+    "content": " La mission consistait en une refonte complète d'un site internet existant, le rendant responsive pour les tablettes et smartphones utilisant React et incluant un slider. Les maquettes fournies via Figma ont servi de base au développement. L'objectif principal de ce projet était de construire une première application entièrement avec React, en décomposant le projet en plusieurs composants réutilisables et en gérant efficacement les états de l'application ainsi que les systèmes de routes.",
+    "tags": "HTML, SASS, JavaScript, React, Figma",    
     "url": "https://github.com/TodescoAmandine/P8_Kasa.git",
     "code": "https://github.com/TodescoAmandine/Kasa.git"
 
@@ -26,9 +26,9 @@
     "image": "/spacejoy-IH7wPsjwomc-unsplash.png",
     "image_details": "/screen_sophie2.png",
     "title": "Sophie Bluel",
-    "short_content": "Le développeur a implémenté avec succès la fonctionnalité de connexion et le système de gestion de galerie",
+    "short_content": "L'objectif de ce projet était de découvrir Java Script en développant un site web nécessitant une connexion/déconnexion via une API. Les utilisateurs peuvent ajouter ou supprimer des photos dans une galerie via une fenêtre modale.",
     "content": "La mission était de développer plusieurs pages du portfolio d'un photographe avec une fonctionnalité de connexion pour les utilisateurs. Ils pourront alors ajouter ou supprimer des photos dans une galerie via une fenêtre modale. Les maquettes ont été fournies via Figma pour guider le développement. L'objectif principal était d'améliorer les compétences JavaScript en les appliquant à la création d'un site Web nécessitant une connexion/déconnexion via une API, ainsi qu'un accès à un compte pour ajouter et supprimer des éléments.",
-    "tags": "HTML, CSS, JavaScript",
+    "tags": "HTML, CSS, JavaScript, Swagger, Figma",
     "url": "https://github.com/TodescoAmandine/P6_Sophie-Bluel.git",
     "code": "https://github.com/TodescoAmandine/6_Sophie-Bluel.git"
 

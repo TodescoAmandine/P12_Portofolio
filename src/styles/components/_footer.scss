@@ -4,21 +4,7 @@
     padding: 50px 0;
     background: $nav-color;
     align-items: center;
-    // background-image: url('../assets/img/daniel-apodaca-NwCIEX2UIL0-unsplash.jpg');
-    // background-size: cover; /* Pour s'assurer que l'image couvre tout le footer */
-    // background-position: center;
-    // position: relative;
-    // mix-blend-mode: multiply;
 
-    // #footer::before {
-    //     content: "";
-    //     position: absolute;
-    //     top: 0;
-    //     right: 0;
-    //     bottom: 0;
-    //     left: 0;
-    //     background-color: rgba(0, 0, 0, 0.8); /* Noir avec 50% d'opacité */
-    //   }
     .footer__title a{
         font-size: $font-xl;
         font-weight: $font-w-xl;
@@ -28,135 +14,15 @@
         justify-content: center;
         display: flex;
         text-decoration: none;
-
     }
     .footer_img{
-width: 200px;
-    }
-    .footer_email{
-        font-size: $font-xl;
-        font-weight: $font-w-xl;
-        font-family: $font;
-        color: white;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        text-decoration: none;
-    }
-    // .footer_image {
-    //     mix-blend-mode: multiply;
-    //     position: absolute;
-    //     background-size: cover; /* Pour s'assurer que l'image couvre tout le footer */
-    //     background-position: center;
-    //   }
-    .form__contenair{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .form__title{
-        font-weight: $font-s;
-        font-family: $font;
-        color: white;
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .form__mail{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        box-shadow: $shadow;
-        cursor: pointer;
-        width: 500px;
-        padding: 16px;
-        border: 0;
-        font-family: $font;
-    }
-    
-    .form__message{
-        box-shadow: $shadow;
-        cursor: pointer;
-        width: 500px;
-        padding: 16px;
-        font-family: $font;
-        height: 300px;
-    }
-    .form__button{
-        background-color:$pink-color;
-        border: 0;
-        padding: 10px;
-        color: rgb(5 55 55);
-        margin-top: 20px;
-        width: 100px;
-        font-size: $font-l;
-        font-weight: $font-w-m;
-        transition: background-color 0.3s ease;
-        font-family: $font;
-        
-        &:hover {
-            background-color: darken(rgb(230,179,176), 10%);
-        }
-
-    &:active {
-        background-color: darken(rgb(230,179,176), 20%);
-        color: white;
+    width: 200px;
     }
 }
 
-}
 
-@media (max-width: 1024px) {
-    #footer {
-      padding-top: 100px; 
-      height: auto; 
-      
-      .form__contenair {
-          width: 80%; 
-          margin: 0 auto; 
-        }
-        
-        .form__mail, .form__message {
-            width: 100%; 
-        }
-        
-        .form__button {
-            width: 80px; 
-            font-size: $font-ml; 
-            font-family: $font;
-        }
-    }
-}
-    
 @media (max-width: 768px) {
-    #footer {
-        padding-top: 50px;
-        .form__contenair{
-            width: 100%;
-        }
-        .form__mail  {
-            width: 80%; 
-            height: 40px;
-            margin: 0;
-            padding: 0;
-        }
-        .form__message {
-            width: 80%; 
-            margin: 0;
-            padding: 0;
-        }
-        
-        .form__title {
-            font-size: $font-ml; 
-            margin-top: 10px;
-            margin-bottom: 10px;
-            font-family: $font;
-        }
-        
-        .form__button {
-            width: 80px; 
-            font-size: $font-m; 
-        }
+    #footer .footer__title a {
+        font-size: $font-ml;
     }
 }

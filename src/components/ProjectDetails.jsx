@@ -37,11 +37,9 @@ const ProjectDetails = () => {
                         <a href={url} target='_blank'>
                         <img className='projectdetails__content--git' src={IconeGit} alt="" />
                         </a>
-                        {/* <p className='projectdetails__content--link'>View Web page <i className="fa-solid fa-arrow-up"></i></p> */}
                         </div>
                         
                   </div>
-                  {/* {console.log('tags:', tags)} */}
                   <div className='projectdetails_content--tags'>
                     {tags.split(', ').map((tag, index) => (
                         <button key={index} className='tag-button'>

@@ -1,7 +1,8 @@
 import React from 'react';
 import IconeGit from '../assets/img/Octicons-mark-github.png';
 
-const Card = ({ image, title, content, tags, onClick }) => {
+
+const Card = ({ image, title, content, tags,url, onClick }) => {
     return (
         <div className='card' onClick={onClick}>
             <img className='card__image' src={image} alt="" />
@@ -14,7 +15,8 @@ const Card = ({ image, title, content, tags, onClick }) => {
                 <div>  
                     <p className='card__content--link'>Plus en détail <i className="fa-solid fa-arrow-up"  ></i></p></div>
                     <div>  
-                    <img className='card__content--git' src={IconeGit} alt="" /></div>
+                    {/* <img className='card__content--git' src={IconeGit} alt="" /> */}
+                    </div>
                 </div>
                     <p className='cards_content--tags'>{tags}</p>
             </div>
