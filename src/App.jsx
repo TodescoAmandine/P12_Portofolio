@@ -15,9 +15,9 @@ const App = () => {
     <ProjectsContext.Provider value={projectsData}>
       <Router>
         <Routes>
-          <Route path="/P12_Portfolio/" element={<Home />} />
-          <Route path="/P12_Portfolio/projects" element={<Projects />} />
-          <Route path="/P12_Portfolio/projects/:id" element={<ProjectDetails />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </Router>
