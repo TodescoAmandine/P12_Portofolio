@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
-    const [activeLink, setActiveLink] = useState('');
+    const [activeLink, setActiveLink] = useState('');//useState() est un hook qui permet d'ajouter l'état à un composant fonctionnel
 
     const handleClick = (e) => {
-        setActiveLink(e.target.name);
+        setActiveLink(e.target.name);//On met à jour l'état activeLink avec le nom de l'élément cliqué
     };
 
     return (

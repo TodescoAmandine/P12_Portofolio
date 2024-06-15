@@ -9,7 +9,7 @@ const CardGrid = () => {
     const navigate = useNavigate();
 
     const handleCardClick = (data) => {
-        navigate(`/projects/${data.id}`);
+        navigate(`/projects/${data.id}`);// Data.id est l'identifiant de chaque projet dans le fichier about.json, pour pouvoir afficher les détails de chaque projet
     };
     console.log(aboutData);
     return (

@@ -3,12 +3,12 @@ import { ProjectsContext } from '../pages/Projectcontext';
 import Navigation from '../components/Navigation';
 
 
-// ...
+
 
 const Projects = () => {
-  const { id } = useParams();
-  const projectsData = useContext(ProjectsContext);
-  const project = projectsData.find(project => project.id === id);
+  const { id } = useParams();//useParams est un hook qui permet de récupérer les paramètres de l'URL
+  const projectsData = useContext(ProjectsContext);//useContext est un hook qui permet de récupérer les données du contexte
+  const project = projectsData.find(project => project.id === id);//On récupère le projet qui correspond à l'id
 
   return (
     <div >

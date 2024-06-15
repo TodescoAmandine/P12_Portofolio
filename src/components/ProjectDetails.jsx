@@ -3,15 +3,15 @@ import projectsData from '../about.json';
 import { useParams } from 'react-router-dom';
 import IconeGit from '../assets/img/Octicons-mark-github.png';
 import { Link } from 'react-router-dom';
-import Error404 from '../components/Error404'; // Import the Error404 component
+import Error404 from '../components/Error404'; 
 
 
 const ProjectDetails = () => {
-    const { id } = useParams();
-    const project = projectsData.find(project => project.id === id);
+    const { id } = useParams();//useParams est un hook qui permet de récupérer les paramètres de l'URL
+    const project = projectsData.find(project => project.id === id);//On récupère le projet qui correspond à l'id
 
     if (!project) {
-        return <Error404 />; // Render the Error404 component if the project is not found
+        return <Error404 />; 
       }
 
     const { image_details, title, url, content, tags } = project;
